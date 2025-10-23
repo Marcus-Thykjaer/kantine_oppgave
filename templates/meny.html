@@ -1,5 +1,13 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 
 {% block content %}
-<h1>meny</h1>
+<div class="menyer">
+   {% for meny in meny %}
+      <div class= "meny" >
+         <img src={{meny.bilde}}> 
+         <p>{{ meny.navn }}</p>
+         <p>{{ meny.pris }} kr</p>
+      </div>
+   {% endfor %}
+</div>
 {% endblock %}

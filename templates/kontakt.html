@@ -1,5 +1,10 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 
 {% block content %}
-<h1>contact</h1>
+<div class="kontakter">
+    {% for kontakt in kontakter %} 
+        <p>{{ kontakt.navn }}</p>
+        <p>{{ kontakt.info }}</p>
+    {% endfor %}
+</div>
 {% endblock %}

@@ -34,3 +34,63 @@ body{
     bottom: 0px;
     width: 100%; 
 }
+
+
+.vare img{
+    width: 160px;
+    height: auto
+}
+
+.varer {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 20px;  
+  margin-top: 40px;              
+}
+
+
+.vare {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;              
+  text-align: center;
+  padding: 15px;
+}
+
+.vare p {
+  margin: 2px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+.meny img{
+    width: 160px;
+    height: auto
+}
+
+.menyer {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 20px;
+  margin-top: 40px;                
+}
+
+
+.meny {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;              
+  text-align: center;
+  padding: 15px;
+}
+
+.meny p {
+  margin: 2px 0;
+  font-size: 20px;
+  color: #000000;
+}
