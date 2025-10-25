@@ -1,5 +1,13 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 
 {% block content %}
-<h1>varer</h1>
+<div class="varer">
+    {% for vare in varer %} 
+         <div class="vare">                             <!-- tar inn navn, pris og bilde med for løkken -->
+             <img src={{vare.bilde}}> 
+             <p class="VareNavn">{{ vare.navn }}</p>
+             <p class="VarePris">{{ vare.pris }} kr</p>
+         </div>
+    {% endfor %}
+</div>
 {% endblock %}

@@ -3,8 +3,12 @@
 {% block content %}
 <div class="kontakter">
     {% for kontakt in kontakter %} 
-        <p>{{ kontakt.navn }}</p>
-        <p>{{ kontakt.info }}</p>
+        <div class="kontakt">
+            <p class="KontaktNavn">Navn: {{ kontakt.navn }}</p> <!-- tar inn navn, rolle, epost og nummer med for løkken -->
+            <p class="KontaktInfo">Rolle: {{ kontakt.rolle }}</p>
+            <p class="KontaktNavn">Epost: {{ kontakt.epost }}</p>
+            <p class="KontaktInfo">Nummer: {{ kontakt.nummer }}</p>
+        </div>
     {% endfor %}
 </div>
 {% endblock %}
