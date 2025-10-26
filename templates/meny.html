@@ -4,9 +4,11 @@
 <div class="menyer">
    {% for meny in meny %}
       <div class= "meny" >
+         <h1 class="MenyDag">{{ meny.dag }}</h1> <!-- tar inn dag, navn, pris og bilde med for løkken -->
          <img src={{meny.bilde}}> 
-         <p>{{ meny.navn }}</p>
-         <p>{{ meny.pris }} kr</p>
+         <p class="MenyNavn">{{ meny.navn }}</p>
+         <p class="MenyPris">{{ meny.pris }} kr</p>
+         <p class="MenyBeskrivelse">{{ meny.beskrivelse }}</p>
       </div>
    {% endfor %}
 </div>

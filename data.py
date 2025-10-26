@@ -27,13 +27,43 @@ KONTAKT_INFO = [
 #Definert en liste med menyelementer for hver dag i uken.
 #Hvert element er en ordbok med dag navn på retten, pris og bilde.
 MENY_ITEMS = [
-    {"dag": "Mandag", "navn": "Lasagne med salat", "pris": 85, "bilde": "/static/images/Lasagne.jpg"},
-    {"dag": "Tirsdag", "navn": "Kyllingwok med ris", "pris": 90, "bilde": "/static/images/Kyllingwok.jpg"},
-    {"dag": "Onsdag", "navn": "Pasta Bolognese", "pris": 80, "bilde": "/static/images/pasta_bolognese.jpg"},
-    {"dag": "Torsdag", "navn": "Kjøttboller med potetmos", "pris": 85, "bilde": "/static/images/Kjottboller.jpg"},
-    {"dag": "Fredag", "navn": "Kyllingwrap", "pris": 65, "bilde": "/static/images/Kyllingwrap.jpg"},
-
+    {
+        "dag": "Mandag",
+        "navn": "Lasagne med salat",
+        "pris": 85,
+        "bilde": "/static/images/Lasagne.jpg",
+        "beskrivelse": "Hjemmelaget lasagne med kjøttsaus og frisk grønn salat."
+    },
+    {
+        "dag": "Tirsdag",
+        "navn": "Kyllingwok med ris",
+        "pris": 90,
+        "bilde": "/static/images/Kyllingwok.jpg",
+        "beskrivelse": "Stekt kylling med sprø grønnsaker og soyabasert saus, servert med ris."
+    },
+    {
+        "dag": "Onsdag",
+        "navn": "Pasta Bolognese",
+        "pris": 80,
+        "bilde": "/static/images/pasta_bolognese.jpg",
+        "beskrivelse": "Klassisk italiensk pastarett med fyldig kjøttsaus og parmesan."
+    },
+    {
+        "dag": "Torsdag",
+        "navn": "Kjøttboller med potetmos",
+        "pris": 85,
+        "bilde": "/static/images/Kjottboller.jpg",
+        "beskrivelse": "Saftige kjøttboller med kremet potetmos og brun saus."
+    },
+    {
+        "dag": "Fredag",
+        "navn": "Kyllingwrap",
+        "pris": 65,
+        "bilde": "/static/images/Kyllingwrap.jpg",
+        "beskrivelse": "Lett og smakfull wrap med kylling, salat og dressing."
+    },
 ]
+
 
 #definert en liste med varer som er i kantina
 # Hvert element er en ordbok med navn på varen, pris og bilde.
